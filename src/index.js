@@ -2,16 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
-import Home from "./Component/Home";
-import AboutDesktop from "./Component/Screens/AboutDesktop";
-import PrivacyDesktop from "./Component/Screens/PrivacyDesktop";
-import ContactDesktop from "./Component/Screens/ContactDesktop";
 import reportWebVitals from "./reportWebVitals";
+import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <ContactDesktop />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
   document.getElementById("root")
 );
 

@@ -21,6 +21,7 @@ import vandeliveryNormal_c from "../../Images/Vehicles/vandeliveryNormal_c.jpg";
 import bikesdeliveryElectric from "../../Images/Vehicles/bikesdeliveryElectric.jpg";
 import bikesdeliveryNormal_d from "../../Images/Vehicles/bikesdeliveryNormal_d.jpg";
 import phoneHands from "../../Images/phone.png";
+import windhoek from "../../Images/windhoek.jpg";
 
 const HomeDesktop = () => {
   return (
@@ -65,6 +66,16 @@ const HomeDesktop = () => {
             </div>
           </Grid>
         </Grid>
+      </div>
+
+      <div className={classes.businessContainer}>
+        <div className={classes.insideBusinessC}>
+          <div className={classes.titleBusi}>TaxiConnect for Business</div>
+          <div className={classes.subTitleBusi}>
+            Solutions that help grow your business
+          </div>
+          <div className={classes.btnDeliverySol}>Delivery solution</div>
+        </div>
       </div>
 
       {/* Body part one */}

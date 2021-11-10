@@ -9,14 +9,34 @@ const Header = () => {
       <Grid container direction="row" alignItems="center">
         <Grid item>
           <div className={classes.logo}>
-            <img alt="logo" src={logo} className={classes.logoImg} />
+            <img
+              alt="logo"
+              src={logo}
+              className={classes.logoImg}
+              onClick={() => (window.location.href = "/")}
+            />
           </div>
         </Grid>
         <Grid item>
           <div>
-            <span className={classes.headerMenuName}>About</span>
-            <span className={classes.headerMenuName}>Privacy</span>
-            <span className={classes.headerMenuName}>Contact</span>
+            <span
+              className={classes.headerMenuName}
+              onClick={() => (window.location.href = "/about")}
+            >
+              About
+            </span>
+            <span
+              className={classes.headerMenuName}
+              onClick={() => (window.location.href = "/privacy")}
+            >
+              Privacy
+            </span>
+            <span
+              className={classes.headerMenuName}
+              onClick={() => (window.location.href = "/contact")}
+            >
+              Contact
+            </span>
           </div>
         </Grid>
         <div className={classes.loginSignupContainer}>

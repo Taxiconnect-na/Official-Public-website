@@ -56,12 +56,15 @@
   object-fit: contain;
   width: 100px;
   height: 50px;
+  cursor: pointer;
 }
 
 .headerMenuName {
   font-family: "MoveTextMedium", sans-serif;
   font-size: medium;
   margin-right: 3.5vmin;
+  /* border: 1px solid black; */
+  cursor: pointer;
 }
 
 .loginSignupContainer {
