@@ -30,18 +30,22 @@ const SafetyShowcase = () => {
         </div>
       </div>
       <div className={classes.downloadParts}>
-        <ButtonDownload />
+        <ButtonDownload
+          link={"https://play.google.com/store/apps/details?id=com.taxiconnect"}
+        />
         <ButtonDownload
           storeIcon="appstore"
           introTitle="Or"
           storeName="AppStore"
           marginLeft={"5%"}
+          link={"https://apps.apple.com/us/app/taxiconnect/id1523176507"}
         />
         <ButtonDownload
           storeIcon="appgallery"
           introTitle="Or"
           storeName="AppGallery"
           marginLeft={"5%"}
+          link={"https://appgallery.huawei.com/app/C104325591"}
         />
       </div>
     </div>

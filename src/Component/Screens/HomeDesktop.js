@@ -50,12 +50,19 @@ const HomeDesktop = () => {
                 </span>
               </div>
               <div className={classes.presHaaderDownloadContainer}>
-                <ButtonDownload />
+                <ButtonDownload
+                  link={
+                    "https://play.google.com/store/apps/details?id=com.taxiconnect"
+                  }
+                />
                 <ButtonDownload
                   storeIcon="appstore"
                   introTitle="Or"
                   storeName="AppStore"
                   marginLeft={"5%"}
+                  link={
+                    "https://apps.apple.com/us/app/taxiconnect/id1523176507"
+                  }
                 />
               </div>
             </div>
@@ -74,7 +81,15 @@ const HomeDesktop = () => {
           <div className={classes.subTitleBusi}>
             Solutions that help grow your business
           </div>
-          <div className={classes.btnDeliverySol}>Delivery solution</div>
+          <div
+            className={classes.btnDeliverySol}
+            onClick={() =>
+              (window.location.href =
+                "https://www.delivery.taxiconnectnanetwork.com/")
+            }
+          >
+            Delivery solution
+          </div>
         </div>
       </div>
 
@@ -111,12 +126,17 @@ const HomeDesktop = () => {
                   />
                 }
                 endComponents={[
-                  <ButtonDownload />,
+                  <ButtonDownload
+                    link={
+                      "https://play.google.com/store/apps/details?id=com.taxiconnect"
+                    }
+                  />,
                   <ButtonDownload
                     storeIcon="appgallery"
                     introTitle="Or"
                     storeName="AppGallery"
                     marginLeft={"7%"}
+                    link={"https://appgallery.huawei.com/app/C104325591"}
                   />,
                 ]}
               />

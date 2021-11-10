@@ -28,8 +28,18 @@ const Footer = () => {
           <Grid item>
             <div className={classes.itemSpace}>
               <div className={classes.title}>Company</div>
-              <div className={classes.elementIn}>About us</div>
-              <div className={classes.elementIn}>Contact</div>
+              <div
+                className={classes.elementIn}
+                onClick={() => (window.location.href = "/about")}
+              >
+                About us
+              </div>
+              <div
+                className={classes.elementIn}
+                onClick={() => (window.location.href = "/contact")}
+              >
+                Contact
+              </div>
             </div>
           </Grid>
           <Grid item xs={1}></Grid>
@@ -48,16 +58,39 @@ const Footer = () => {
           <div className={classes.seconStageContainer}>
             <div className={classes.secondStageEls1}>
               <div className={classes.socialMed}>
-                <Twitter style={{ fontSize: "2.3vmin" }} />
+                <Twitter
+                  onClick={() =>
+                    (window.location.href = "https://twitter.com/TaxiConnectna")
+                  }
+                  style={{ fontSize: "2.3vmin" }}
+                />
               </div>
               <div className={classes.socialMed}>
-                <Instagram style={{ fontSize: "2.3vmin" }} />
+                <Instagram
+                  onClick={() =>
+                    (window.location.href =
+                      "https://www.instagram.com/taxiconnect.na/")
+                  }
+                  style={{ fontSize: "2.3vmin" }}
+                />
               </div>
               <div className={classes.socialMed}>
-                <Facebook style={{ fontSize: "2.3vmin" }} />
+                <Facebook
+                  onClick={() =>
+                    (window.location.href =
+                      "https://www.facebook.com/TaxiConnectna/")
+                  }
+                  style={{ fontSize: "2.3vmin" }}
+                />
               </div>
               <div className={classes.socialMed}>
-                <LinkedIn style={{ fontSize: "2.3vmin" }} />
+                <LinkedIn
+                  onClick={() =>
+                    (window.location.href =
+                      "https://www.linkedin.com/company/taxiconnect-namibia")
+                  }
+                  style={{ fontSize: "2.3vmin" }}
+                />
               </div>
             </div>
             <div className={classes.secondStageEls2}>
@@ -79,8 +112,17 @@ const Footer = () => {
           <div>© 2021 Posterity TaxiConnect Technologies CC.</div>
         </Grid>
         <Grid item xs={6} className={classes.copyrPart2}>
-          <div className={classes.termsEls}>Privacy</div>
-          <div className={classes.termsEls} style={{ marginRight: 0 }}>
+          <div
+            className={classes.termsEls}
+            onClick={() => (window.location.href = "/privacy")}
+          >
+            Privacy
+          </div>
+          <div
+            className={classes.termsEls}
+            onClick={() => (window.location.href = "/privacy")}
+            style={{ marginRight: 0 }}
+          >
             Terms
           </div>
         </Grid>

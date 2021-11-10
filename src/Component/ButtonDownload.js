@@ -8,9 +8,20 @@ const ButtonDownload = ({
   storeName = "Playstore",
   storeIcon = "playstore",
   marginLeft = 0,
+  link = null,
 }) => {
   return (
-    <div className={classes.container} style={{ marginLeft: marginLeft }}>
+    <div
+      onClick={
+        link !== null
+          ? () => {
+              window.location.href = link;
+            }
+          : {}
+      }
+      className={classes.container}
+      style={{ marginLeft: marginLeft }}
+    >
       <div className={classes.iconPart}>
         <img
           alt="ico"
