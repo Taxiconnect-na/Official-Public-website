@@ -1,6 +1,6 @@
 import classes from "../../styles/Home_desktop.module.css";
 import Header from "../Header";
-import headerPic from "../../Images/headerPic.jpg";
+import headerPic from "../../Images/headerPic.png";
 import Phone1 from "../../Images/phone1.png";
 import ButtonDownload from "../ButtonDownload";
 import Grid from "@material-ui/core/Grid";

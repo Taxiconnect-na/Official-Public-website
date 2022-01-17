@@ -14,12 +14,11 @@ import ButtonDownload from "../ButtonDownload";
 import Typist from "react-typist";
 //...Images
 import imageHeader from "../../Images/driverIconic.jpg";
-import town1 from "../../Images/town1.jpg";
+import town1 from "../../Images/town1.png";
 import church from "../../Images/church.jpg";
 import dom from "../../Images/Team/dom.jpg";
 import ren from "../../Images/Team/ren.jpg";
 import phil from "../../Images/Team/phil.jpg";
-import sar from "../../Images/Team/sar.jpg";
 import mac from "../../Images/Team/mac.jpg";
 import hands2 from "../../Images/hands2.png";
 import Footer from "../Footer";
