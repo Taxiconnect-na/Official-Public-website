@@ -11,7 +11,7 @@ function Home() {
 
   return (
     <div>
-      {isDesktopOrLaptop ? (
+      {/* {isDesktopOrLaptop ? (
         <HomeDesktop />
       ) : isBigScreen ? (
         "Big screen"
@@ -19,7 +19,8 @@ function Home() {
         "Table/mobile"
       ) : (
         "Other screen"
-      )}
+      )} */}
+      <HomeDesktop />
     </div>
   );
 }
