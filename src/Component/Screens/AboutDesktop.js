@@ -68,8 +68,8 @@ const AboutDesktop = () => {
                 mainTitle={null}
                 headTitles={["Our Vision", "Our Mission"]}
                 subForTitles={[
-                  "TaxiConnect allows you to quickly find the closest taxi around you for your destination.",
-                  "Our prices start from the normal taxi fares and optional services for your convenience at its best.",
+                  "Is to safely, conveniently, and reliably connect the transportation industry to its partners, customers, and clients through innovative and market adopting technology.",
+                  "Our mission is to provide convenience, safety, and a reliable ride experience. To provide our partners with the ability to track the daily activities of their transportation business in real-time.",
                 ]}
                 iconLeading={
                   <FiberManualRecord
@@ -181,7 +181,7 @@ const AboutDesktop = () => {
               </div>
             </div>
             <div className={classes.teamSName}>Phillipus Amunyela</div>
-            <div className={classes.teamSQuote}>Quote</div>
+            <div className={classes.teamSQuote}>.</div>
             <div className={classes.teamSStatus}></div>
             <div className={classes.teamSTitle}>Financial Officer</div>
             <div className={classes.socialSTeam}>
@@ -210,7 +210,7 @@ const AboutDesktop = () => {
               </div>
             </div>
             <div className={classes.teamSName}>Mack Kaputo</div>
-            <div className={classes.teamSQuote}>Quote</div>
+            <div className={classes.teamSQuote}>.</div>
             <div className={classes.teamSStatus}></div>
             <div className={classes.teamSTitle}>Fullstack Developer</div>
             <div className={classes.socialSTeam}>
@@ -229,7 +229,7 @@ const AboutDesktop = () => {
             </div>
           </div>
           {/* 5 */}
-          <div className={classes.singleTeamNode}>
+          {/* <div className={classes.singleTeamNode}>
             <div className={classes.imageContainer}>
               <div className={classes.teamSImage}>
                 <img alt="team5" src={sar} className={classes.truePicTeamS} />
@@ -258,7 +258,7 @@ const AboutDesktop = () => {
                 <Twitter style={{ fontSize: "2.5vmin" }} />
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 
